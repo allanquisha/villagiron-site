@@ -34,4 +34,9 @@ input,select,textarea{font:inherit;font-size:16px;padding:12px 14px;border:1px s
 textarea{min-height:130px;resize:vertical}.note{font-size:14px;background:#A68FFF33;padding:12px 14px;border-radius:6px;display:none}
 .cta{text-align:left}.list{padding-left:18px;margin:18px 0 28px}.list li{margin:6px 0}
 footer{background:#141414;color:#F5F2ECaa;padding:40px 0;font-size:14px}footer .w{display:flex;flex-wrap:wrap;gap:16px 40px;justify-content:space-between}footer b{color:#F5F2EC;font-weight:500;font-size:18px}
+.pgrid{display:grid;gap:clamp(16px,2.5vw,28px);grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));margin-top:32px}
+.pg{min-width:0}.pg h3 a{text-decoration:none}.pg h3 a:hover{color:#6236FF}
+.pt{list-style:none;margin:0;padding:0;border-top:2px solid #6236FF}.pt li{display:flex;flex-wrap:wrap;justify-content:space-between;gap:4px 16px;padding:14px 0;border-bottom:1px solid #14141420}
+.pt li span{min-width:0}.pv{font-weight:600;white-space:nowrap}.pv small{font-weight:400;font-size:13px;color:#14141499}
+.pnote{font-size:15px;color:#14141499;margin:24px 0}
 .banner{background:#6236FF;color:#fff;font-size:13px;text-align:center;padding:6px 12px}
